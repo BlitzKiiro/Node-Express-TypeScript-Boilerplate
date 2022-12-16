@@ -36,7 +36,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(morgan("dev"));
 
 //USING ROUTES
-app.use("/api/employees", employeesRoute);
+
 app.use("/api/users", usersRoute);
 
 //error handle middleware
