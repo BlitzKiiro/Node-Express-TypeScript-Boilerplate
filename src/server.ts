@@ -4,7 +4,6 @@ import colors from "colors";
 import morgan from "morgan";
 import errorMiddleware from "./middlewares/errorMiddleware";
 import connectDB from "./config/db";
-import employeesRoute from "./routes/Route";
 import usersRoute from "./routes/usersRoutes";
 import cors from "cors";
 import path from "path";
